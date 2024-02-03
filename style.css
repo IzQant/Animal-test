@@ -1,7 +1,6 @@
 @font-face {
   font-family: "TAEBAEK";
-  src: url("https://github.com/IzQant/Animal-test/TAEBAEK.otf")
-    format("truetype");
+  src: url("TAEBAEK.otf") format("truetype");
 }
 
 body {
