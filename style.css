@@ -96,7 +96,7 @@ body {
 
 .remove-image {
   width: 200px;
-  margin: 0;
+  margin: 0 auto;
   color: #fff;
   background: #cd4535;
   border: none;
