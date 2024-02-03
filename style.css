@@ -114,11 +114,13 @@ body {
   color: #ffffff;
   transition: all 0.2s ease;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .remove-image:active {
   border: 0;
   transition: all 0.2s ease;
+  margin: 0 auto;
 }
 
 .nav-distance {
