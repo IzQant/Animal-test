@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'TAEBAEK';
-  src: url('../faceid/TAEBAEK.ttf') format('truetype');
+  font-family: "TAEBAEK";
+  src: url("../faceid/TAEBAEK.ttf") format("truetype");
 }
 
 body {
-  font-family: 'TAEBAEK';
+  font-family: "TAEBAEK";
   background-color: #fffff0;
 }
 
@@ -19,27 +19,27 @@ body {
   width: 100%;
   margin: 0;
   color: #ffffff;
-  background: #1FB264;
+  background: #1fb264;
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
+  border-bottom: 4px solid #15824b;
+  transition: all 0.2s ease;
   outline: none;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .file-upload-btn:hover {
-  background: #1AA059;
+  background: #1aa059;
   color: #ffffff;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .file-upload-btn:active {
   border: 0;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .file-upload-content {
@@ -60,13 +60,13 @@ body {
 
 .image-upload-wrap {
   margin-top: 20px;
-  border: 4px dashed #1FB264;
+  border: 4px dashed #1fb264;
   position: relative;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-  background-color: #1FB264;
+  background-color: #1fb264;
   border: 4px dashed #ffffff;
 }
 
@@ -82,7 +82,7 @@ body {
 .drag-text h3 {
   font-weight: 100;
   text-transform: uppercase;
-  color: #738FE5;
+  color: #738fe5;
   font-size: 1.5rem;
 }
 
@@ -102,7 +102,7 @@ body {
   padding: 10px;
   border-radius: 4px;
   border-bottom: 4px solid #b02818;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   outline: none;
   text-transform: uppercase;
   font-weight: 700;
@@ -111,13 +111,13 @@ body {
 .remove-image:hover {
   background: #c13b2a;
   color: #ffffff;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .remove-image:active {
   border: 0;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .nav-distance {
@@ -125,10 +125,10 @@ body {
 }
 
 .navbar-light .navbar-brand {
-  font-family: 'TAEBAEK';
+  font-family: "TAEBAEK";
   line-height: 1.68;
   text-align: left;
-  color: #99aecc
+  color: #99aecc;
 }
 
 .navbar-light .navber-toggler {
@@ -140,14 +140,14 @@ body {
 }
 
 .title {
-  font-family: 'TAEBAEK';
+  font-family: "TAEBAEK";
   line-height: 1.67;
   text-align: center;
   color: #737399;
 }
 
 .subtitle {
-  font-family: 'TAEBAEK';
+  font-family: "TAEBAEK";
   line-height: 1.53;
   text-align: center;
   color: #737399;
@@ -157,9 +157,9 @@ body {
   html {
     font-size: 10px;
   }
-    .navbar-brand {
-      font-size: 2rem;
-    }
+  .navbar-brand {
+    font-size: 2rem;
+  }
 }
 
 .file-upload {
@@ -183,4 +183,14 @@ body {
   border-radius: 10px;
   border: dashed 2px #35465d;
   background-color: #737399;
+}
+
+.ad1 {
+  width: 320px;
+}
+
+.ad2 {
+  width: 320px;
+  height: 250px;
+  margin: 0 auto;
 }
